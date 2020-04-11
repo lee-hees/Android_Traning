@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록5" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록6" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="목록8" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="411sp"
+                        android:layout_height="250sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_blue_light"
+                        android:gravity="center"
+                        android:text="이미지 위치1" />
+
+                    <TextView
+                        android:layout_width="411sp"
+                        android:layout_height="250sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_red_light"
+                        android:gravity="center"
+                        android:text="이미지 위치2" />
+
+                    <TextView
+                        android:layout_width="411sp"
+                        android:layout_height="250sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_blue_light"
+                        android:gravity="center"
+                        android:text="이미지 위치3" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_orange_dark"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_orange_dark"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_orange_dark"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_orange_dark"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_orange_dark"
+                        android:ems="100"
+                        android:gravity="center"
+                        android:text="컨텐츠 위치10" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
