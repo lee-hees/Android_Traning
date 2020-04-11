@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LayoutDemo</string>
+    <string name="Button">마이 버튼</string>
 </resources>
